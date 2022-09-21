@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+
+.outer-border {
+    border: 8px outset rgba(245, 245, 245, 0.733);
+    width: 25vw;
+    height: 17vh;
+}
+
+thead {
+    color:rgb(190, 255, 233);
+    background-color: rgb(19, 60, 61);
+}
+
+th {
+    border:4px solid rgb(40, 115, 255);
+    border-style: ridge;
+    padding: 0.5rem;
+}
+
+tbody tr:nth-child(even) {
+    color:rgb(5, 10, 8);
+    background-color: rgb(124, 173, 157);
+}
+
+tbody tr:nth-child(odd) {
+    color:rgb(5, 10, 8);
+    background-color: rgb(190, 255, 233);
+}
+
+td {
+    border:2px solid rgb(40, 115, 255);
+    border-style: ridge;
+    padding: 0.5rem;
+}
